@@ -1,1 +1,4 @@
-{{outlet}}
+{{log content.articles}}
+{{#each content.articles as |story|}}
+  {{all-story story=story}}
+{{/each}}
